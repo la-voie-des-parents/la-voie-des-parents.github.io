@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+{% include head.html %}
+
+<body class="main">
+        <!-- START MOUNTAIN EFFECT -->
+        {% include mountain.html %}
+        <!-- END MOUNTAIN EFFECT -->
+        <div id="inner">
+            <div id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="span3">
+                            <div class="box1">
+                                <header>
+                                    <!-- START LOGO -->
+                                    <div class="logo_wrapper">
+                                        <a href="index.html" class="logo"><img src="images/logo.png" alt="Kinder Garten Logo"></a>
+                                    </div>
+                                    <!-- END LOGO -->
+                                </header>
+                                <!-- START NAVIGATION MENU -->
+                                {% include menu.html %}
+                                <!-- END NAVIGATION MENU -->
+                            </div>
+                        </div>
+                        <div class="span8 offset1">
+                            <!-- START CAROUFREDSEL SLIDER -->
+                            {% include carousel.html %}
+                            <!-- END CAROUFREDSEL SLIDER -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- START CONTENT -->
+            {{ page.content }}
+            <!-- END CONTENT -->
+            <!-- START FOOTER -->
+            {% include footer.html %}
+            <!-- END FOOTER -->
+        </div>
+    
+    <!-- JS -->
+    {% include scripts.html %}
+</body>
+
+</html>
