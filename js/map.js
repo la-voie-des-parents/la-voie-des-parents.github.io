@@ -88,7 +88,7 @@
         ]
     }
 ],
-            center: new google.maps.LatLng(39.264220, -74.647282),
+            center: new google.maps.LatLng(43.6383927, 4.8064373),
           mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
