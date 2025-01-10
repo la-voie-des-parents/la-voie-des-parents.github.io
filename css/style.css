@@ -1820,6 +1820,20 @@ input[type="color"],
     color: #fff;
 }
 
+.fa-linkedin {
+    background-color: #da9188;
+    color: #ffeed4;
+    border: 1px solid #ffeed4;
+    padding: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.fa-linkedin:hover {
+    background-color: #aec5a5;
+    color: #fff;
+}
+
 .fa-pinterest {
     background-color: #aec5a5;
     color: #ffeed4;
