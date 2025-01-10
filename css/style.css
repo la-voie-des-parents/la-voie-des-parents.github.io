@@ -2142,6 +2142,11 @@ input[type="color"],
 		19 - PAGES & SIDEBAR
 ------------------------------*/
 
+
+.lipadd li {
+    margin-bottom: 10px;
+}
+
 .pages_wrapper {
     background: #ffeed4;
     margin-top: 35px;
