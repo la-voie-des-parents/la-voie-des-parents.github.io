@@ -1234,6 +1234,26 @@ h6 {
 
 .thumbnails1 .thumbnail .caption {}
 
+.partenaires {
+    text-align: center;
+}
+
+.partenaires > li {
+    float: left;
+    margin: 0 0 30px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.partenaires > li.last {
+    margin-bottom: 0;
+}
+
+.partenaires figure img {
+    border-radius: 6px;
+}
+
 .thumbnails2 {
     margin: 0 0 0 -30px;
     padding: 0;
