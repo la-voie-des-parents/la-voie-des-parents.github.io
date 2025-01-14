@@ -818,6 +818,12 @@ h6 {
     width: 78px;
 }
 
+.about_img {
+    border-radius: 50%;
+    border: 1px solid #aec5a5;
+    width: 90px;
+}
+
 
 /*------------------------------
 		9 - CAROUFREDSEL SLIDER 1
