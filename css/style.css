@@ -765,6 +765,29 @@ h6 {
     color: #ffeed4;
 }
 
+.button-forbidden {
+    background: #9da39a;
+    color: #ffeed4;
+    font-family: 'Baloo Bhaijaan', cursive;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.button-forbidden:hover {
+    background: #676b65;
+    color: #ffeed4;
+}
+
 .button2 {
     font-family: 'Baloo Bhaijaan', cursive;
     display: inline-block;
