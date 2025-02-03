@@ -56,6 +56,11 @@ a {
     text-decoration: none;
 }
 
+.white-text {
+    color: #ffeed4;
+    text-decoration: underline;
+}
+
 a:hover,
 a:focus {
     color: #aec5a5;
